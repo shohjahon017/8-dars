@@ -10,6 +10,7 @@
   margin: 0 auto;
 }
 .header__container {
+  max-width: 1440px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -56,11 +57,12 @@ a:hover {
 
 /* HERO SECTION */
 .hero__container {
-  margin-top: 93px;
-  z-index: 12;
+  margin-top: 63px;
+}
+.h1 {
+  max-width: 366px;
 }
 .hero__container h1 {
-  max-width: 366px;
   font-family: "Lato";
   font-size: 56px;
   font-weight: 700;
@@ -111,7 +113,18 @@ a:hover {
   gap: 25px;
   margin-left: 200px;
 }
+.oval {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+  margin-left: 1274px;
+}
 .oval1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
   width: 32px;
   height: 32px;
   top: 703px;
@@ -119,4 +132,35 @@ a:hover {
   opacity: 0.3px;
   color: rgba(255, 255, 255, 1);
   border: 1px solid rgb(30, 16, 16);
+}
+.oval2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  top: 703px;
+  left: 1274px;
+  opacity: 0.3px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(30, 16, 16);
+}
+.oval3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  top: 703px;
+  left: 1274px;
+  opacity: 0.3px;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(30, 16, 16);
+}
+.oval:hover {
+  border: 1px solid rgba(255, 255, 255, 1);
 }
